@@ -1,0 +1,93 @@
+
+.container{
+    border: 1px solid red;
+    display: flexbox;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px red;
+}
+
+#number{
+    height:30px;
+     width:400px;
+     padding-left:10px;
+     border-radius: 10px;
+     border: 3px solid red;
+}
+
+#button-number{
+    height:35px;
+    border-radius: 10px;
+    background-color: red;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#button-number:hover{
+    box-shadow: 3px 3px black;
+}
+
+form{
+    margin-top:20px
+}
+
+#year{
+    font-size: larger;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#DOB{
+    height:30px;
+    width:400px;
+    padding-left:10px;
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+
+#button-DOB{
+    height:35px;
+    border-radius: 10px;
+    background-color: blue;
+    box-shadow: 3px 3px black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#AgeBirth{
+    height:30px;
+    width:400px;
+    padding-left:10px;
+    border-radius: 10px;
+    border: 3px solid green;
+}
+
+#button-AGEBIRTH{
+    height:35px;
+    border-radius: 10px;
+    background-color: green;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+#button-AGEBIRTH:hover{
+    box-shadow: 3px 3px black;
+}
+
+h3{
+    margin-top: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+center:last-child{
+    margin-bottom: 70px;
+    margin-top: -50px;
+}
