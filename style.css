@@ -5,7 +5,7 @@
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 50px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     box-shadow: 4px 4px red;
 }
 
@@ -67,7 +67,7 @@ form{
     border: 3px solid green;
 }
 
-#button-AGEBIRTH{
+#calculate{
     height:35px;
     border-radius: 10px;
     background-color: green;
@@ -77,14 +77,26 @@ form{
     cursor: pointer;
 }
 
+#calculateAge{
+    margin-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: larger;
+}
+
 #button-AGEBIRTH:hover{
     box-shadow: 3px 3px black;
 }
 
 h3{
-    margin-top: 70px;
+    margin-top: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
 }
 
 center:last-child{
