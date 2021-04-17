@@ -3,6 +3,11 @@ body{
     background-color: rgb(252, 230, 230);
 }
 
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .container{
     border: 1px solid rgb(252, 93, 93);
     display: flexbox;
@@ -12,6 +17,7 @@ body{
     border-radius: 20px 20px 0 0;
     box-shadow: 4px 4px rgb(252, 93, 93);
     position: relative;
+    padding: 40px;
 }
 
 hr{
@@ -112,4 +118,5 @@ center:last-child{
     margin-bottom: 70px;
     margin-top: -50px;
 }
+
 
