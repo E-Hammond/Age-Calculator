@@ -5,7 +5,7 @@
 		
 		if (number == "" || number == 0) {
 			
-			window.alert("Please type your correct age!");
+			window.alert("Please enter your age!");
 			return;
 		}
 		

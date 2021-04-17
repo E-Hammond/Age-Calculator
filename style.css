@@ -1,12 +1,21 @@
 
+body{
+    background-color: rgb(252, 230, 230);
+}
+
 .container{
-    border: 1px solid red;
+    border: 1px solid rgb(252, 93, 93);
     display: flexbox;
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 50px;
-    /* border-radius: 20px; */
-    box-shadow: 4px 4px red;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 4px 4px rgb(252, 93, 93);
+    position: relative;
+}
+
+hr{
+    border: 1px solid rgb(252, 93, 93);
 }
 
 #number{
@@ -14,17 +23,17 @@
      width:400px;
      padding-left:10px;
      border-radius: 10px;
-     border: 3px solid red;
+     border: 3px solid rgb(252, 93, 93);
 }
 
 #button-number{
     height:35px;
     border-radius: 10px;
-    background-color: red;
+    background-color: rgb(252, 93, 93);
 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     cursor: pointer;
 }
 
@@ -38,7 +47,7 @@ form{
 
 #year{
     font-size: larger;
-    color: red;
+    color: rgb(252, 93, 93);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -47,13 +56,13 @@ form{
     width:400px;
     padding-left:10px;
     border-radius: 10px;
-    border: 3px solid blue;
+    border: 3px solid rgb(252, 93, 93);
 }
 
 #button-DOB{
     height:35px;
     border-radius: 10px;
-    background-color: blue;
+    background-color: rgb(252, 93, 93);
     box-shadow: 3px 3px black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -64,13 +73,13 @@ form{
     width:400px;
     padding-left:10px;
     border-radius: 10px;
-    border: 3px solid green;
+    border: 3px solid rgb(252, 93, 93);
 }
 
 #calculate{
     height:35px;
     border-radius: 10px;
-    background-color: green;
+    background-color: rgb(252, 93, 93);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     margin-bottom: 30px;
@@ -80,11 +89,11 @@ form{
 #calculateAge{
     margin-top: 40px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: green;
+    color: rgb(252, 93, 93);
     font-size: larger;
 }
 
-#button-AGEBIRTH:hover{
+#calculate:hover{
     box-shadow: 3px 3px black;
 }
 
@@ -96,10 +105,11 @@ h3{
 
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
+    color: rgb(252, 93, 93);
 }
 
 center:last-child{
     margin-bottom: 70px;
     margin-top: -50px;
 }
+
