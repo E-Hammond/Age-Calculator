@@ -122,7 +122,7 @@ center:last-child{
 
 @media only screen and (max-width:1500px) {
     body{
-        font-size: 30px;
+        font-size: 20px;
     }
     .wrapper{
         display: grid;
@@ -137,20 +137,20 @@ center:last-child{
         
     }
     #year{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #button-number{
-        font-size: 25px;
+        font-size: 30px;
         
     }
 
     #calculate{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #calculateAge{
-        font-size: 25px;
+        font-size: 30px;
         
     }
 
