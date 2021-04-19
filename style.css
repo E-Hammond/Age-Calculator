@@ -120,7 +120,7 @@ center:last-child{
 }
 
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1500px) {
     body{
         font-size: 35px;
     }
