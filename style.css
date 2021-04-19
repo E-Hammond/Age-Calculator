@@ -14,7 +14,7 @@ body{
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 50px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 50px 50px 0 0;
     box-shadow: 4px 4px rgb(252, 93, 93);
     position: relative;
     padding: 40px;
@@ -138,6 +138,10 @@ center:last-child{
     }
     #year{
         font-size: 30px;
+    }
+
+    #number{
+        font-size: 25px;
     }
 
     #button-number{
