@@ -120,3 +120,17 @@ center:last-child{
 }
 
 
+@media only screen and (max-width:600px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0;
+        
+    }
+
+}
