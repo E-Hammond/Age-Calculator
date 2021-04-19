@@ -120,7 +120,10 @@ center:last-child{
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:900px) {
+    body{
+        font-size: 35px;
+    }
     .wrapper{
         display: grid;
         grid-template-columns: 1fr;
